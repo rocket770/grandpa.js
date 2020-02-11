@@ -3,6 +3,15 @@ const client = new Discord.Client();
 const prefix = '/';
 client.on('ready', () => {
     console.log(`Logged in!`);
+    client.user.setStatus('available')
+    client.user.setPresence({
+        game: {
+            name: 'Grandma left me',
+            type: "STREAMING",
+            url: "well idk what to write here"
+
+        }
+    });
 });
 client.on('message', message => {
   if (!message.guild) return;
@@ -93,4 +102,4 @@ if (msg.startsWith(prefix + 'PURGE')) {
 });
 
 
-client.login('Njc2MzM1OTM5MjI4MDA4NDQ4.XkEkXQ.nlxqvqFBN1LAjzX0jXSKbI2uQ4E');
+client.login('token_id');
