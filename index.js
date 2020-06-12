@@ -231,4 +231,4 @@ bot.on("message", async message => {
 
 
 
-bot.login('Njc2MzM1OTM5MjI4MDA4NDQ4.XkTyVA.83z2OeW_jA0oI7i-VwH_8P5nrws');
+bot.login('Njc2MzM1OTM5MjI4MDA4NDQ4.XuOEyQ.tuEQdq-9vqBFLgQgnlBw1s7pKuU');
