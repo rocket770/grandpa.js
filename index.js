@@ -99,7 +99,7 @@ bot.on('message', message => {
       } else {
         message.reply('That user isn\'t in this guild!');
       }
-    } else {6
+    } else {
       message.reply('You didn\'t mention the user to ban!');
     }
   }
@@ -111,6 +111,18 @@ if (message.content.toLowerCase() == "nigger" || message.content.toLowerCase() =
   if (message.content == "/swearjar") {
     message.reply("You can add to the swear jar here: https://docs.google.com/document/d/1mb-lUMhhK7fgF7cEAP2pPOrVOJw0c6l0vC5ePa26ubU/edit")
   }
+  if (message.content == "/killmyself") {
+    message.reply("pls no")
+  }
+  if (message.content == "/killyourself") {
+    message.reply("pls no dont bully me i hav so much to live for")
+  }
+
+
+
+
+
+
 });
 bot.on('message', message => {
     let msg = message.content.toUpperCase();
@@ -219,4 +231,4 @@ bot.on("message", async message => {
 
 
 
-bot.login('Njc2MzM1OTM5MjI4MDA4NDQ4.XkJq5w.l-hqebGbjKeYDiUFqPOflvNFNdo');
+bot.login('Njc2MzM1OTM5MjI4MDA4NDQ4.XkTyVA.83z2OeW_jA0oI7i-VwH_8P5nrws');
